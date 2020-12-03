@@ -3,7 +3,10 @@
 In this notebook I have taken a old kaggle comepetition of Careervillage.org. The problem statement was to recommend relevant questions to relevant professionals. Referring to already solved solutions I have combined edited and tried to make my solution concise effective and efficient. Going through the datasets we clearly see that "questions", "answers", "professionals" and "tags" are important and relevant for our goal.
 Starting with loading the data and doing some feature extraction to add some new interesting columns for future analysis we continue our EDA(Exploratory Data Analysis . After getting the required insights we use LDA for our Topic Modelling. With this we build our recommendations which solve only a specific question.
 **How to recommend relevant questions to relevant professionals so that they are motivated to answer.**
-
+#### LDA Visualization
+![](https://github.com/shubhamk8597/Project---Recommending-Right-Content-To-Right-Users/blob/main/'/Images'/17.PNG)
+#### Topic Similarity
+![](https://github.com/shubhamk8597/Project---Recommending-Right-Content-To-Right-Users/blob/main/'/Images'/18.PNG) 
 ### Data Description
 CareerVillage.org has provided several years of anonymized data and each file comes from a table in their database.
 
