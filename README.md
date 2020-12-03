@@ -58,11 +58,13 @@ Topic 2 Can be called **Law**
 Topic 4 Can be called **Business Management** and so on..
 ### Interactive LDA Visvualization
 pyLDAvis is a great tool to visvualize LDA and understand it.This is a screenshot of the following 
-![](https://github.com/shubhamk8597/Project---Recommending-Right-Content-To-Right-Users/blob/main/'/Images'/17.png)
+![](https://github.com/shubhamk8597/Project---Recommending-Right-Content-To-Right-Users/blob/main/'/Images'/17.PNG)
+
 ### Examples of topic similarity highlighted with probability 
 Here we input questions and highlight the topics in each question and map in on a pie chart
-![](https://github.com/shubhamk8597/Project---Recommending-Right-Content-To-Right-Users/blob/main/'/Images'/18.png)
-![](https://github.com/shubhamk8597/Project---Recommending-Right-Content-To-Right-Users/blob/main/'/Images'/19.png)
+![](https://github.com/shubhamk8597/Project---Recommending-Right-Content-To-Right-Users/blob/main/'/Images'/18.PNG)
+
+![](https://github.com/shubhamk8597/Project---Recommending-Right-Content-To-Right-Users/blob/main/'/Images'/19.PNG)
 
 ## Recommending Questions to Professionals
 ## Similar questions
