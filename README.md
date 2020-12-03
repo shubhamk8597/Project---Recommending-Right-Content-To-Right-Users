@@ -58,13 +58,13 @@ Topic 2 Can be called **Law**
 Topic 4 Can be called **Business Management** and so on..
 ### Interactive LDA Visvualization
 pyLDAvis is a great tool to visvualize LDA and understand it.This is a screenshot of the following 
-
+![](https://github.com/shubhamk8597/Project---Recommending-Right-Content-To-Right-Users/blob/main/'/Images'/17.png)
 ### Examples of topic similarity highlighted with probability 
 Here we input questions and highlight the topics in each question and map in on a pie chart
+![](https://github.com/shubhamk8597/Project---Recommending-Right-Content-To-Right-Users/blob/main/'/Images'/18.png)
+![](https://github.com/shubhamk8597/Project---Recommending-Right-Content-To-Right-Users/blob/main/'/Images'/19.png)
 
 ## Recommending Questions to Professionals
-
-
 ## Similar questions
 For this task it is important to identify similar questions. We have two functions
 1 - Get similar text questions :
@@ -106,3 +106,17 @@ score_answers = **1/𝑙𝑜𝑔10(10+𝑣𝑎𝑙𝑢𝑒)**  with value= The a
 **tags**: Jaccard similiarty between the question hashtags and the professional subscribed hashtags?
 
 score_tags = **𝑇𝑞∩𝑇𝑝/𝑇𝑞∪𝑇𝑝 ** with **Tq= Question Tags and Tp= Professional Tags.**
+
+### Example 1 - A random professional who has been registered for a while
+![](https://github.com/shubhamk8597/Project---Recommending-Right-Content-To-Right-Users/blob/main/'/Images'/20.png)
+
+### Example 2 - A newly registered professional with only hashtangs and no answered questions.
+![](https://github.com/shubhamk8597/Project---Recommending-Right-Content-To-Right-Users/blob/main/'/Images'/21.png)
+
+## Conclusion
+We started with examining the data and then extracting features to the data which would be of our use. Then we did a thorough EDA which gave more insights on the relation between different parameters. The Bubble Chart between student tags, professional tags and question tags made a basis for our further model. The email response time and the mean response time made clear that emails are good for engagement of the professionals.
+
+After that we cleaned the data using NLP techniques using Spacy library and sorted out important words in a sentence which could now be used to determine topics for the questions or to calculate textual similarity between questions.
+
+We then went on and built LDA model in Gebsim library for recommending questions to professionals via mail as it is the most effective and engaging way. Much more imporvement can be done but here we focused only on a specific task of recommending relevant questions to professionals via mail which will make them motivated to answer it.
+
