@@ -4,6 +4,42 @@ In this notebook I have taken a old kaggle comepetition of Careervillage.org. Th
 Starting with loading the data and doing some feature extraction to add some new interesting columns for future analysis we continue our EDA(Exploratory Data Analysis . After getting the required insights we use LDA for our Topic Modelling. With this we build our recommendations which solve only a specific question.
 **How to recommend relevant questions to relevant professionals so that they are motivated to answer.**
 
+### Data Description
+CareerVillage.org has provided several years of anonymized data and each file comes from a table in their database.
+
+**answers.csv**: Answers are what this is all about! Answers get posted in response to questions. Answers can only be posted by users who are registered as Professionals. However, if someone has changed their registration type after joining, they may show up as the author of an Answer even if they are no longer a Professional.
+
+**comments.csv**: Comments can be made on Answers or Questions. We refer to whichever the comment is posted to as the "parent" of that comment. Comments can be posted by any type of user. Our favorite comments tend to have "Thank you" in them :)
+
+**emails.csv**: Each email corresponds to one specific email to one specific recipient. The frequency_level refers to the type of email template which includes immediate emails sent right after a question is asked, daily digests, and weekly digests.
+
+**group_memberships.csv**: Any type of user can join any group. There are only a handful of groups so far.
+
+**groups.csv**: Each group has a "type". For privacy reasons we have to leave the group names off.
+
+**matches.csv**: Each row tells you which questions were included in emails. If an email contains only one question, that email's ID will show up here only once. If an email contains 10 questions, that email's ID would show up here 10 times.
+
+**professionals.csv**: We call our volunteers "Professionals", but we might as well call them Superheroes. They're the grown ups who volunteer their time to answer questions on the site.
+
+**questions.csv**: Questions get posted by students. Sometimes they're very advanced. Sometimes they're just getting started. It's all fair game, as long as it's relevant to the student's future professional success.
+
+**school_memberships.csv**: Just like group_memberships, but for schools instead.
+
+**students.csv**: Students are the most important people on CareerVillage.org. They tend to range in age from about 14 to 24. They're all over the world, and they're the reason we exist!
+
+**tag_questions.csv**: Every question can be hashtagged. We track the hashtag-to-question pairings, and put them into this file.
+
+**tag_users**.csv: Users of any type can follow a hashtag. This shows you which hashtags each user follows.
+
+**tags.csv**: Each tag gets a name.
+
+**question_scores.csv**: "Hearts" scores for each question.
+
+**answer_scores.csv**: "Hearts" scores for each answer.
+
+
+
+
 ## EDA - Explotary Data analyisis
 ### 1 - Tag relation
 Th The x-axis is how many professionals have subscribe the tag and the y-axis is in how many students have subscribed to the tag. The Size of he bubble indicates how many questions have these tags. The most related tags used by many of the users is college with 15.6 % of questions containing it. Around 4 % of professionals and 1.5 % of students use it. Even though the numbers are ow they are high relatively The top tag for professionals is telecommunications on the right site with about 11% but the tag doesn't appear in many questions or students subscription.
