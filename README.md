@@ -164,5 +164,6 @@ After that we cleaned the data using NLP techniques using Spacy library and sort
 We then went on and built LDA model in Gebsim library for recommending questions to professionals via mail as it is the most effective and engaging way. Much more imporvement can be done but here we focused only on a specific task of recommending relevant questions to professionals via mail which will make them motivated to answer it.
 
 ## Reference and Credits
-Daniel Becker - https://www.kaggle.com/danielbecker/careervillage-org-recommendation-engine/notebook
 Ivan Didur - https://www.kaggle.com/ididur/nn-based-recommender-engine
+
+Daniel Becker - https://www.kaggle.com/danielbecker/careervillage-org-recommendation-engine/notebook
