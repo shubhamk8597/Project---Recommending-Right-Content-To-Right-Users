@@ -2,7 +2,7 @@
 ## Overview
 In this notebook I have taken a old kaggle comepetition of Careervillage.org. The problem statement was to recommend relevant questions to relevant professionals. Referring to already solved solutions I have combined edited and tried to make my solution concise effective and efficient. Going through the datasets we clearly see that "questions", "answers", "professionals" and "tags" are important and relevant for our goal.
 
-Starting with loading the data and doing some feature extraction to add some new interesting columns for future analysis we continue our EDA(Exploratory Data Analysis . After getting the required insights we use LDA for our Topic Modelling. With this we build our recommendations which solve only a specific question.
+Starting with loading the data and doing some feature extraction to add some new interesting columns for future analysis we continue our EDA(Exploratory Data Analysis) . After getting the required insights we use LDA for our Topic Modelling. With this we build our recommendations which solve only a specific question.
 **How to recommend relevant questions to relevant professionals so that they are motivated to answer.**
 
 #### LDA Visualization
@@ -163,3 +163,6 @@ After that we cleaned the data using NLP techniques using Spacy library and sort
 
 We then went on and built LDA model in Gebsim library for recommending questions to professionals via mail as it is the most effective and engaging way. Much more imporvement can be done but here we focused only on a specific task of recommending relevant questions to professionals via mail which will make them motivated to answer it.
 
+## Reference and Credits
+Daniel Becker - https://www.kaggle.com/danielbecker/careervillage-org-recommendation-engine/notebook
+Ivan Didur - https://www.kaggle.com/ididur/nn-based-recommender-engine
