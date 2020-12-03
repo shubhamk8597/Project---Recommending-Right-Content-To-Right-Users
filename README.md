@@ -110,10 +110,10 @@ score_answers = **1/𝑙𝑜𝑔10(10+𝑣𝑎𝑙𝑢𝑒)**  with value= The a
 score_tags = **𝑇𝑞∩𝑇𝑝/𝑇𝑞∪𝑇𝑝 ** with **Tq= Question Tags and Tp= Professional Tags.**
 
 ### Example 1 - A random professional who has been registered for a while
-![](https://github.com/shubhamk8597/Project---Recommending-Right-Content-To-Right-Users/blob/main/'/Images'/20.png)
+![](https://github.com/shubhamk8597/Project---Recommending-Right-Content-To-Right-Users/blob/main/'/Images'/20.PNG)
 
 ### Example 2 - A newly registered professional with only hashtangs and no answered questions.
-![](https://github.com/shubhamk8597/Project---Recommending-Right-Content-To-Right-Users/blob/main/'/Images'/21.png)
+![](https://github.com/shubhamk8597/Project---Recommending-Right-Content-To-Right-Users/blob/main/'/Images'/21.PNG)
 
 ## Conclusion
 We started with examining the data and then extracting features to the data which would be of our use. Then we did a thorough EDA which gave more insights on the relation between different parameters. The Bubble Chart between student tags, professional tags and question tags made a basis for our further model. The email response time and the mean response time made clear that emails are good for engagement of the professionals.
