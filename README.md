@@ -9,6 +9,15 @@ Starting with loading the data and doing some feature extraction to add some new
 ![](https://github.com/shubhamk8597/Project---Recommending-Right-Content-To-Right-Users/blob/main/'/Images'/17.PNG)
 #### Topic Similarity
 ![](https://github.com/shubhamk8597/Project---Recommending-Right-Content-To-Right-Users/blob/main/'/Images'/18.PNG) 
+
+## Resources 
+Python 3.7
+Libraries - sklearn,numpy,pandas,wordcloud,matplotlib,spacy,gensim,pyLDAvis,re
+
+References-  Ivan Didur - https://www.kaggle.com/ididur/nn-based-recommender-engine
+             
+             Daniel Becker - https://www.kaggle.com/danielbecker/careervillage-org-recommendation-engine
+
 ### Data Description
 CareerVillage.org has provided several years of anonymized data and each file comes from a table in their database.
 
@@ -163,7 +172,3 @@ After that we cleaned the data using NLP techniques using Spacy library and sort
 
 We then went on and built LDA model in Gebsim library for recommending questions to professionals via mail as it is the most effective and engaging way. Much more imporvement can be done but here we focused only on a specific task of recommending relevant questions to professionals via mail which will make them motivated to answer it.
 
-## Reference and Credits
-Ivan Didur - https://www.kaggle.com/ididur/nn-based-recommender-engine
-
-Daniel Becker - https://www.kaggle.com/danielbecker/careervillage-org-recommendation-engine/notebook
