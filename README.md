@@ -1,4 +1,4 @@
-# Project---Recommending-Right-Content-To-Right-Users
+# Recommending Right Content To Right Users
 ## Overview
 In this notebook we takle a problem statement of Careervillage.org. The problem statement was to recommend relevant questions to relevant professionals. Referring to already solved solutions I have combined edited and tried to make my solution concise effective and efficient. Going through the datasets we clearly see that "questions", "answers", "professionals" and "tags" are important and relevant for our goal.
 
